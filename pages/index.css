@@ -56,16 +56,10 @@
   color: #000000;
 }
 
-.header__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 183px;
-  max-width: 709px;
-}
-
 .header__title {
   margin: 0 0 28px;
+  margin-top: 183px;
+  max-width: 709px;
 }
 
 .header__span-accent {
@@ -107,7 +101,7 @@
   margin-top: auto;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 40px;
+  margin-bottom: 0;
   padding: 0;
   font-style: normal;
   font-weight: 500;
@@ -115,13 +109,11 @@
   line-height: 20px;
   color: #838383;
 }
-.header__footer_hours {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0;
-}
+
 .header__paragraph {
-  margin: 0px;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .content {
